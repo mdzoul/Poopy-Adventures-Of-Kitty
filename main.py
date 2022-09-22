@@ -103,4 +103,4 @@ elif door_stay == "stay":
   print("\nGame Over.")
 
 else:
-  print("[Invalid input. Please rerun.]")
+  print("\n[Invalid input. Please rerun.]")
