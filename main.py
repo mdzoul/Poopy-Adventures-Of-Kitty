@@ -57,22 +57,22 @@ if door_stay == "door":
             print("\nYou stood up on your hind legs and pushed the doors open with your body weight in one go.\n\nThe toilet was empty!\n\nYou climbed onto the edge of the toilet seat and finally flushed all that stress and tension away.")
             print("\nNicely Done, Kitty! Good job!")
 
-          else:
+          elif push_meow == "meow":
             print("\nYou made a mistake.\n\nThe moment you squeezed that tiny diaphragm to let out the loudest meow you can possibly muster, you also contracted your abdominal muscles a little too hard.")
             print("\nYour fierce meow becomes a meow of embarrassment as you ask your humans to help you clean your mess.\nSuch a disappointment.")
             print("\nGame Over.")
 
-          # Push door/Meow loudly - Start
+          # Push door/Meow loudly - End
 
 
-        else:
+        elif box_toilet == "litter box":
           print("\nYou got to the end of the kitchen!\nYou managed to hold it in as you enter the litter box.")
           print("\nOnly to find that there was no litter in the litter box.\nIt was too late to turn back to use the guest toilet.\nYou let yourself and your dignity go.")
           print("\nGame Over.")
 
         # Second litter box/Guest toilet - End
 
-      else:
+      elif towards_around == "past":
         print("\nYou try to stealthily walk past your human, in hopes that she is too engrossed in her phone to not notice you.\nUnfortunately, in the moment that you do, she looked away from her phone and saw you.\nShe picks you up and starts cuddling and hugging you.")
         print("\nIt does not end well for both you and your human.")
         print("\nGame Over.")
@@ -80,7 +80,7 @@ if door_stay == "door":
       # Approach human/Walk around human - End
 
 
-    else:
+    elif walk_eat == "food":
       print("\nYou indulge in the crunchy and sweet taste of your food.\nYou forget about the world and your problems as you take another bite, and then another.")
       print("\nSuddenly, you feel something gurgling in your gut.\nHow could you have forgotten your goal?\nDarn these tasty treats.\nNow you're too heavy to rush to the toilet.")
       print("\nYou cannot hold back as you shate where you ate.")
@@ -98,6 +98,6 @@ if door_stay == "door":
 
   # Masterbedroom/Living room/Guest room - End
 
-else:
+elif door_stay == "stay":
   print("\nYou decide to close your eyes and nap a bit more.\nYou wake up to a pile of your own poop on your owner's bed.\nYour owner screams at you.\nLooks like you're sleeping outside tonight.")
   print("\nGame Over.")
