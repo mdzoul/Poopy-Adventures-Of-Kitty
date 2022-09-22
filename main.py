@@ -101,3 +101,6 @@ if door_stay == "door":
 elif door_stay == "stay":
   print("\nYou decide to close your eyes and nap a bit more.\nYou wake up to a pile of your own poop on your owner's bed.\nYour owner screams at you.\nLooks like you're sleeping outside tonight.")
   print("\nGame Over.")
+
+else:
+  print("[Invalid input. Please rerun.]")
