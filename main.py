@@ -104,4 +104,3 @@ elif door_stay == "stay":
 
 else:
   print("\n[Invalid input. Please rerun.]")
-  
