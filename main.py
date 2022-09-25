@@ -25,7 +25,7 @@ if door_stay == "door":
 
   # Masterbedroom/Living room/Guest room - Start
   print("\nYou know this house like the back of your paw.\n\nThe living room is \33[32m[straight]\33[0m ahead.\nThe masterbedroom is on your \33[32m[left]\33[0m.\nThe guest bedroom is on your \33[32m[right]\33[0m.")
-  mlg_room = input("\nNow, the location of your litter box would be in this direction:\n").lower()
+  mlg_room = input("\nNow, the location of your litter box should be in this direction:\n").lower()
 
   if mlg_room == "straight":
     print("---\nYou continue walking into the living room and are greeted by familiar sights and smells.")
@@ -40,21 +40,21 @@ if door_stay == "door":
 
       # Approach human/Walk around human - Start
       if towards_around == "around":
-        print("---\nYour human was too engrossed in her phone that she does not notice you walking around her.\nYou get to the litter box in the living room, but there was a problem.\n\nYour brother is using the litter box.\nAnd he does not seem to be done anytime soon.")
+        print("---\nYour human is too engrossed in her phone that she does not notice you walking around her.\nYou get to the litter box in the living room, but there is a problem.\n\nYour brother is using the litter box.\nAnd he does not seem to be done anytime soon.")
         print("\nYou start to panic but that just makes the situation worse.\nI dare say, the more you panic, the shittier the situation becomes.")
 
         # Second litter box/Guest toilet - Start
         print("\nYou remember there is a second litter box in the kitchen.\nYou sprint as fast as you can, barely holding on anymore.\nYou are trying to keep it together as you tell yourself that the litter box is at the end of the kitchen after the guest toilet.\nYou don't know if you are going to make it.")
-        box_toilet = input("\nAs you are about to run past the \33[32m[guest toilet]\33[0m towards the \33[32m[litter box]\33[0m at the end of the kitchen, you made the daring decision to use the:\n").lower()
+        box_toilet = input("\nAs you are about to run past the \33[32m[guest toilet]\33[0m towards the \33[32m[litter box]\33[0m at the end of the kitchen, you make the daring decision to use the:\n").lower()
 
         if box_toilet == "guest toilet":
-          print("---\nYou saw that the guest toilet doors were closed.\nYou had to think fast if you want to \33[32m[meow]\33[0m as loud as you can to let yourself in or \33[32m[push]\33[0m the doors with all your might.")
+          print("---\nYou see that the guest toilet doors are closed.\nYou have to think fast whether you want to \33[32m[meow]\33[0m as loud as you can to let yourself in or \33[32m[push]\33[0m the doors with all your might.")
 
           # Push door/Meow loudly - Start
-          push_meow = input("\nIn a fit of hysteria, you decided to:\n").lower()
+          push_meow = input("\nIn a fit of hysteria, you decide to:\n").lower()
 
           if push_meow == "push":
-            print("---\nYou stood up on your hind legs and pushed the doors open with your body weight in one go.\n\nThe toilet was empty!\n\nYou climbed onto the edge of the toilet seat and finally flushed all that stress and tension away.")
+            print("---\nYou stand up on your hind legs and push the doors open with your body weight in one go.\n\nThe toilet is empty!\n\nYou climb onto the edge of the toilet seat and finally flush all that stress and tension away.")
             print("\n\33[1;32mNicely Done, Kitty! Good job!\33[0m")
 
           elif push_meow == "meow":
@@ -69,8 +69,8 @@ if door_stay == "door":
 
 
         elif box_toilet == "litter box":
-          print("---\nYou got to the end of the kitchen!\nYou managed to hold it in as you enter the litter box.")
-          print("\nOnly to find that there was no litter in the litter box.\nIt was too late to turn back to use the guest toilet.\nYou let yourself and your dignity go.")
+          print("---\nYou get to the end of the kitchen!\nYou manage to hold it in as you enter the litter box.")
+          print("\nOnly to find that there is no litter in the litter box.\nIt is too late to turn back to use the guest toilet.\nYou let yourself and your dignity go.")
           print("\n\33[31mGame Over.\33[0m")
 
         else:
@@ -98,10 +98,10 @@ if door_stay == "door":
     # Walk straight/Go to food bowl - End
 
   elif mlg_room == "left":
-    print("---\nYou rush to the masterbedroom toilet.\nYou pushed on the toilet door in anticipated relief only to find out that one of your humans is occupying it\nToo late.\nYour anticipated relief just became an accidental one.")
+    print("---\nYou rush to the masterbedroom toilet.\nYou push on the toilet door in anticipated relief only to find out that one of your humans is occupying it\nToo late.\nYour anticipated relief just became an accidental one.")
     print("\n\33[31mGame Over.\33[0m")
   elif mlg_room == "right":
-    print("---\nYou decided to take a detour and enter the guest bedroom for some reason.\nAs you enter the bedroom, you trip on the door stopper.\nYou wander about in the guest bedroom not realising that the door is slowly closing behind you.")
+    print("---\nYou decide to take a detour and enter the guest bedroom for some reason.\nAs you enter the bedroom, you trip on the door stopper.\nYou wander about in the guest bedroom not realising that the door is slowly closing behind you.")
     print("\nSLAM! The door shut close.")
     print("\n\33[31mGame Over.\33[0m")
 
